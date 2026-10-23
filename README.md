@@ -1,4 +1,3 @@
-@'
 # Previsão de Abandono de Clientes numa Corretora
 
 **Pergunta:** Que contas ativas de uma corretora ficarão inativas nos próximos 90 dias,
@@ -12,4 +11,3 @@ Sintéticos (seed 42). Ver `src/generate_data.py`.
 ## Reproduzir
     pip install -r requirements.txt
     python src/generate_data.py
-'@ | Set-Content -Encoding utf8 README.md
